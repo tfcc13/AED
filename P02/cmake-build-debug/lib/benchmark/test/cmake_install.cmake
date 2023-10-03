@@ -1,4 +1,4 @@
-# Install script for directory: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/lib/benchmark/test
+# Install script for directory: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/lib/benchmark/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

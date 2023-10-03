@@ -935,7 +935,7 @@ rule CXX_EXECUTABLE_LINKER__min_time_parse_gtest_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02" -B"/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug"
+  command = /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02" -B"/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

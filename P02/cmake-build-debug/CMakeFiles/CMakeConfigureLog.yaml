@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.out
+        /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.out
+        /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZPrbSw"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZPrbSw"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0unSBb"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0unSBb"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,9 +71,9 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZPrbSw
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0unSBb
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_b406f && [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o -c /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_eaa63 && [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o -c /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -83,8 +83,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b406f.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b406f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccPQsBEH.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eaa63.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_eaa63.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccfPIORz.s
         GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -104,13 +104,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b406f.dir/'
-         as -v --64 -o CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o /tmp/ccPQsBEH.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eaa63.dir/'
+         as -v --64 -o CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o /tmp/ccfPIORz.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o -o cmTC_b406f   && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o -o cmTC_eaa63   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -123,9 +123,9 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b406f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b406f.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbY8wcQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b406f /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b406f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b406f.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eaa63' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_eaa63.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHPt6a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_eaa63 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eaa63' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_eaa63.'
         
       exitCode: 0
   -
@@ -159,9 +159,9 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZPrbSw]
+        ignore line: [Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0unSBb]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_b406f && [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o -c /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_eaa63 && [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o -c /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -171,8 +171,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b406f.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b406f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccPQsBEH.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eaa63.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_eaa63.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccfPIORz.s]
         ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -192,13 +192,13 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b406f.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o /tmp/ccPQsBEH.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eaa63.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o /tmp/ccfPIORz.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o -o cmTC_b406f   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o -o cmTC_eaa63   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -211,13 +211,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b406f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b406f.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbY8wcQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b406f /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eaa63' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_eaa63.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHPt6a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_eaa63 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccbY8wcQ.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccrHPt6a.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -235,7 +235,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b406f] ==> ignore
+          arg [cmTC_eaa63] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -247,7 +247,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_b406f.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_eaa63.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -287,8 +287,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W5gh8j"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W5gh8j"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lyxWer"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lyxWer"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -297,9 +297,9 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W5gh8j
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lyxWer
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_8c9f5 && [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o -c /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_05232 && [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o -c /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -309,8 +309,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8c9f5.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8c9f5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQy0HJT.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05232.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05232.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccoCJfNu.s
         GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -334,13 +334,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8c9f5.dir/'
-         as -v --64 -o CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQy0HJT.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05232.dir/'
+         as -v --64 -o CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoCJfNu.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8c9f5   && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05232   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -353,9 +353,9 @@ events:
         gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c9f5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8c9f5.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgz8kHL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8c9f5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c9f5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8c9f5.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05232' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05232.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cczQS6wU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_05232 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05232' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05232.'
         
       exitCode: 0
   -
@@ -395,9 +395,9 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W5gh8j]
+        ignore line: [Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lyxWer]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_8c9f5 && [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o -c /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_05232 && [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o -c /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -407,8 +407,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8c9f5.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8c9f5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccQy0HJT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05232.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05232.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccoCJfNu.s]
         ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -432,13 +432,13 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8c9f5.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQy0HJT.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05232.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccoCJfNu.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8c9f5   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05232   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -451,13 +451,13 @@ events:
         ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c9f5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8c9f5.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgz8kHL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8c9f5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05232' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05232.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cczQS6wU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_05232 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccgz8kHL.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cczQS6wU.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -475,7 +475,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8c9f5] ==> ignore
+          arg [cmTC_05232] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -487,7 +487,7 @@ events:
           arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_8c9f5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_05232.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -526,8 +526,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sotpN"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sotpN"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fX4R4Y"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fX4R4Y"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -536,10 +536,10 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sotpN
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fX4R4Y
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_b0a8e && [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_b0a8e.dir/src.c.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4sotpN/src.c'
-        [2/2] : && /usr/bin/cc   CMakeFiles/cmTC_b0a8e.dir/src.c.o -o cmTC_b0a8e   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_5be36 && [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_5be36.dir/src.c.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fX4R4Y/src.c'
+        [2/2] : && /usr/bin/cc   CMakeFiles/cmTC_5be36.dir/src.c.o -o cmTC_5be36   && :
         
       exitCode: 0
   -
@@ -550,21 +550,21 @@ events:
     checks:
       - "Looking for shm_open in rt"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D1Qogw"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D1Qogw"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bRPa5P"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bRPa5P"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_LIB_RT"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D1Qogw
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bRPa5P
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_5998c && [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fdiagnostics-color=always -o CMakeFiles/cmTC_5998c.dir/CheckFunctionExists.c.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D1Qogw/CheckFunctionExists.c'
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=shm_open  CMakeFiles/cmTC_5998c.dir/CheckFunctionExists.c.o -o cmTC_5998c  -lrt && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_795e7 && [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fdiagnostics-color=always -o CMakeFiles/cmTC_795e7.dir/CheckFunctionExists.c.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bRPa5P/CheckFunctionExists.c'
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=shm_open  CMakeFiles/cmTC_795e7.dir/CheckFunctionExists.c.o -o cmTC_795e7  -lrt && :
         
       exitCode: 0
   -
@@ -578,21 +578,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WALL"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DDtfmV"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DDtfmV"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P4n0iT"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P4n0iT"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WALL"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DDtfmV
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P4n0iT
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_193cc && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -std=c++11 -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_193cc.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DDtfmV/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  CMakeFiles/cmTC_193cc.dir/src.cxx.o -o cmTC_193cc   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_27e47 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -std=c++11 -fdiagnostics-color=always   -Wall -o CMakeFiles/cmTC_27e47.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-P4n0iT/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  CMakeFiles/cmTC_27e47.dir/src.cxx.o -o cmTC_27e47   && :
         
       exitCode: 0
   -
@@ -606,21 +606,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WEXTRA"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5EFCC1"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5EFCC1"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HAl3K1"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HAl3K1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WEXTRA"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5EFCC1
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HAl3K1
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_3a739 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++11 -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_3a739.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5EFCC1/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  CMakeFiles/cmTC_3a739.dir/src.cxx.o -o cmTC_3a739   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_f6bd5 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -std=c++11 -fdiagnostics-color=always   -Wextra -o CMakeFiles/cmTC_f6bd5.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HAl3K1/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  CMakeFiles/cmTC_f6bd5.dir/src.cxx.o -o cmTC_f6bd5   && :
         
       exitCode: 0
   -
@@ -634,21 +634,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSHADOW"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wDFCj8"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wDFCj8"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RzSZBr"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RzSZBr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WSHADOW"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wDFCj8
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RzSZBr
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_787cd && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++11 -fdiagnostics-color=always   -Wshadow -o CMakeFiles/cmTC_787cd.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wDFCj8/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  CMakeFiles/cmTC_787cd.dir/src.cxx.o -o cmTC_787cd   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_94483 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -std=c++11 -fdiagnostics-color=always   -Wshadow -o CMakeFiles/cmTC_94483.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RzSZBr/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  CMakeFiles/cmTC_94483.dir/src.cxx.o -o cmTC_94483   && :
         
       exitCode: 0
   -
@@ -662,21 +662,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EMjM5e"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EMjM5e"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T5S0Rd"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T5S0Rd"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EMjM5e
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T5S0Rd
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_27b44 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11 -fdiagnostics-color=always   -Wfloat-equal -o CMakeFiles/cmTC_27b44.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EMjM5e/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  CMakeFiles/cmTC_27b44.dir/src.cxx.o -o cmTC_27b44   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_cac56 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++11 -fdiagnostics-color=always   -Wfloat-equal -o CMakeFiles/cmTC_cac56.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T5S0Rd/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  CMakeFiles/cmTC_cac56.dir/src.cxx.o -o cmTC_cac56   && :
         
       exitCode: 0
   -
@@ -690,21 +690,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QPgkpO"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QPgkpO"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-O87NCO"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-O87NCO"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QPgkpO
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-O87NCO
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_8ca69 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++11 -fdiagnostics-color=always   -Wold-style-cast -o CMakeFiles/cmTC_8ca69.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QPgkpO/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  CMakeFiles/cmTC_8ca69.dir/src.cxx.o -o cmTC_8ca69   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_b8d3a && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++11 -fdiagnostics-color=always   -Wold-style-cast -o CMakeFiles/cmTC_b8d3a.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-O87NCO/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  CMakeFiles/cmTC_b8d3a.dir/src.cxx.o -o cmTC_b8d3a   && :
         
       exitCode: 0
   -
@@ -718,21 +718,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WERROR"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YNkS3y"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YNkS3y"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9LhjOi"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9LhjOi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WERROR"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YNkS3y
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9LhjOi
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_e099f && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -std=c++11 -fdiagnostics-color=always   -Werror -o CMakeFiles/cmTC_e099f.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YNkS3y/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  CMakeFiles/cmTC_e099f.dir/src.cxx.o -o cmTC_e099f   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_244d6 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror -std=c++11 -fdiagnostics-color=always   -Werror -o CMakeFiles/cmTC_244d6.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9LhjOi/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  CMakeFiles/cmTC_244d6.dir/src.cxx.o -o cmTC_244d6   && :
         
       exitCode: 0
   -
@@ -746,21 +746,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I6mUeC"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I6mUeC"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GA83EW"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GA83EW"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_PEDANTIC"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I6mUeC
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GA83EW
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_cf99f && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic -std=c++11 -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_cf99f.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-I6mUeC/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  CMakeFiles/cmTC_cf99f.dir/src.cxx.o -o cmTC_cf99f   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_0e129 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic -std=c++11 -fdiagnostics-color=always   -pedantic -o CMakeFiles/cmTC_0e129.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GA83EW/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  CMakeFiles/cmTC_0e129.dir/src.cxx.o -o cmTC_0e129   && :
         
       exitCode: 0
   -
@@ -774,21 +774,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LivUNO"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LivUNO"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WtBZC7"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WtBZC7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LivUNO
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WtBZC7
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_a606a && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors -std=c++11 -fdiagnostics-color=always   -pedantic-errors -o CMakeFiles/cmTC_a606a.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LivUNO/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  CMakeFiles/cmTC_a606a.dir/src.cxx.o -o cmTC_a606a   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_d919a && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors -std=c++11 -fdiagnostics-color=always   -pedantic-errors -o CMakeFiles/cmTC_d919a.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WtBZC7/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  CMakeFiles/cmTC_d919a.dir/src.cxx.o -o cmTC_d919a   && :
         
       exitCode: 0
   -
@@ -802,22 +802,22 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-whHbU1"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-whHbU1"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VS9hlg"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VS9hlg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-whHbU1
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VS9hlg
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_1ef30 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11 -fdiagnostics-color=always   -Wshorten-64-to-32 -o CMakeFiles/cmTC_1ef30.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-whHbU1/src.cxx'
-        FAILED: CMakeFiles/cmTC_1ef30.dir/src.cxx.o 
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11 -fdiagnostics-color=always   -Wshorten-64-to-32 -o CMakeFiles/cmTC_1ef30.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-whHbU1/src.cxx'
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_66f1a && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11 -fdiagnostics-color=always   -Wshorten-64-to-32 -o CMakeFiles/cmTC_66f1a.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VS9hlg/src.cxx'
+        FAILED: CMakeFiles/cmTC_66f1a.dir/src.cxx.o 
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++11 -fdiagnostics-color=always   -Wshorten-64-to-32 -o CMakeFiles/cmTC_66f1a.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VS9hlg/src.cxx'
         c++: error: unrecognized command-line option '-Wshorten-64-to-32'
         c++: error: unrecognized command-line option '-Wshorten-64-to-32'
         ninja: build stopped: subcommand failed.
@@ -834,21 +834,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T1Agst"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T1Agst"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5kXJIS"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5kXJIS"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T1Agst
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5kXJIS
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_4022f && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++11 -fdiagnostics-color=always   -fstrict-aliasing -o CMakeFiles/cmTC_4022f.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T1Agst/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  CMakeFiles/cmTC_4022f.dir/src.cxx.o -o cmTC_4022f   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_89ea4 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++11 -fdiagnostics-color=always   -fstrict-aliasing -o CMakeFiles/cmTC_89ea4.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5kXJIS/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  CMakeFiles/cmTC_89ea4.dir/src.cxx.o -o cmTC_89ea4   && :
         
       exitCode: 0
   -
@@ -862,21 +862,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1yyCQG"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1yyCQG"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EO6EkW"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EO6EkW"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1yyCQG
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EO6EkW
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_74985 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11 -fdiagnostics-color=always   -Wno-deprecated-declarations -o CMakeFiles/cmTC_74985.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1yyCQG/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  CMakeFiles/cmTC_74985.dir/src.cxx.o -o cmTC_74985   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_5f081 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++11 -fdiagnostics-color=always   -Wno-deprecated-declarations -o CMakeFiles/cmTC_5f081.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EO6EkW/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  CMakeFiles/cmTC_5f081.dir/src.cxx.o -o cmTC_5f081   && :
         
       exitCode: 0
   -
@@ -890,21 +890,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zbhd9y"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zbhd9y"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D7BRMW"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D7BRMW"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zbhd9y
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D7BRMW
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_44b37 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11 -fdiagnostics-color=always   -Wno-deprecated -o CMakeFiles/cmTC_44b37.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Zbhd9y/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  CMakeFiles/cmTC_44b37.dir/src.cxx.o -o cmTC_44b37   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_74a01 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++11 -fdiagnostics-color=always   -Wno-deprecated -o CMakeFiles/cmTC_74a01.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-D7BRMW/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  CMakeFiles/cmTC_74a01.dir/src.cxx.o -o cmTC_74a01   && :
         
       exitCode: 0
   -
@@ -918,21 +918,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aQv6Ib"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aQv6Ib"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Jdvg2U"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Jdvg2U"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aQv6Ib
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Jdvg2U
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_d9569 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++11 -fdiagnostics-color=always   -Wstrict-aliasing -o CMakeFiles/cmTC_d9569.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aQv6Ib/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_d9569.dir/src.cxx.o -o cmTC_d9569   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_5f53e && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++11 -fdiagnostics-color=always   -Wstrict-aliasing -o CMakeFiles/cmTC_5f53e.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Jdvg2U/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_5f53e.dir/src.cxx.o -o cmTC_5f53e   && :
         
       exitCode: 0
   -
@@ -946,22 +946,22 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WD654"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qlEVE7"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qlEVE7"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B7srKB"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B7srKB"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WD654"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qlEVE7
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B7srKB
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_454c7 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11 -fdiagnostics-color=always   -wd654 -o CMakeFiles/cmTC_454c7.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qlEVE7/src.cxx'
-        FAILED: CMakeFiles/cmTC_454c7.dir/src.cxx.o 
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11 -fdiagnostics-color=always   -wd654 -o CMakeFiles/cmTC_454c7.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qlEVE7/src.cxx'
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_8fd25 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11 -fdiagnostics-color=always   -wd654 -o CMakeFiles/cmTC_8fd25.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B7srKB/src.cxx'
+        FAILED: CMakeFiles/cmTC_8fd25.dir/src.cxx.o 
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -std=c++11 -fdiagnostics-color=always   -wd654 -o CMakeFiles/cmTC_8fd25.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B7srKB/src.cxx'
         c++: error: unrecognized command-line option '-wd654'
         c++: error: unrecognized command-line option '-wd654'
         ninja: build stopped: subcommand failed.
@@ -978,22 +978,22 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4qmix7"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4qmix7"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-16BGnc"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-16BGnc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4qmix7
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-16BGnc
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_3df79 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11 -fdiagnostics-color=always   -Wthread-safety -o CMakeFiles/cmTC_3df79.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4qmix7/src.cxx'
-        FAILED: CMakeFiles/cmTC_3df79.dir/src.cxx.o 
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11 -fdiagnostics-color=always   -Wthread-safety -o CMakeFiles/cmTC_3df79.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4qmix7/src.cxx'
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_240d5 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11 -fdiagnostics-color=always   -Wthread-safety -o CMakeFiles/cmTC_240d5.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-16BGnc/src.cxx'
+        FAILED: CMakeFiles/cmTC_240d5.dir/src.cxx.o 
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++11 -fdiagnostics-color=always   -Wthread-safety -o CMakeFiles/cmTC_240d5.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-16BGnc/src.cxx'
         c++: error: unrecognized command-line option '-Wthread-safety'
         c++: error: unrecognized command-line option '-Wthread-safety'
         ninja: build stopped: subcommand failed.
@@ -1010,21 +1010,21 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_COVERAGE"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ry6jzG"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ry6jzG"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BDOUdC"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BDOUdC"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "HAVE_CXX_FLAG_COVERAGE"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ry6jzG
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BDOUdC
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_ddf78 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++11 -fdiagnostics-color=always   --coverage -o CMakeFiles/cmTC_ddf78.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ry6jzG/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage  CMakeFiles/cmTC_ddf78.dir/src.cxx.o -o cmTC_ddf78   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_353f4 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++11 -fdiagnostics-color=always   --coverage -o CMakeFiles/cmTC_353f4.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BDOUdC/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage  CMakeFiles/cmTC_353f4.dir/src.cxx.o -o cmTC_353f4   && :
         
       exitCode: 0
   -
@@ -1033,21 +1033,21 @@ events:
       - "lib/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
       - "lib/benchmark/CMakeLists.txt:297 (cxx_feature_check)"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "COMPILE_HAVE_STD_REGEX"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_95554 && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_95554.dir/std_regex.cpp.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/lib/benchmark/cmake/std_regex.cpp'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_95554.dir/std_regex.cpp.o -o cmTC_95554   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_47649 && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_47649.dir/std_regex.cpp.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/lib/benchmark/cmake/std_regex.cpp'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_47649.dir/std_regex.cpp.o -o cmTC_47649   && :
         
       exitCode: 0
     runResult:
@@ -1061,23 +1061,23 @@ events:
       - "lib/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
       - "lib/benchmark/CMakeLists.txt:298 (cxx_feature_check)"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_6d860 && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_6d860.dir/gnu_posix_regex.cpp.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/lib/benchmark/cmake/gnu_posix_regex.cpp'
-        FAILED: CMakeFiles/cmTC_6d860.dir/gnu_posix_regex.cpp.o 
-        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_6d860.dir/gnu_posix_regex.cpp.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/lib/benchmark/cmake/gnu_posix_regex.cpp'
-        /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/lib/benchmark/cmake/gnu_posix_regex.cpp:1:10: fatal error: gnuregex.h: No such file or directory
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_c416d && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_c416d.dir/gnu_posix_regex.cpp.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/lib/benchmark/cmake/gnu_posix_regex.cpp'
+        FAILED: CMakeFiles/cmTC_c416d.dir/gnu_posix_regex.cpp.o 
+        /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_c416d.dir/gnu_posix_regex.cpp.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/lib/benchmark/cmake/gnu_posix_regex.cpp'
+        /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/lib/benchmark/cmake/gnu_posix_regex.cpp:1:10: fatal error: gnuregex.h: No such file or directory
             1 | #include <gnuregex.h>
               |          ^~~~~~~~~~~~
         compilation terminated.
@@ -1093,21 +1093,21 @@ events:
       - "lib/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
       - "lib/benchmark/CMakeLists.txt:299 (cxx_feature_check)"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "COMPILE_HAVE_POSIX_REGEX"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_9cd49 && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_9cd49.dir/posix_regex.cpp.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/lib/benchmark/cmake/posix_regex.cpp'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_9cd49.dir/posix_regex.cpp.o -o cmTC_9cd49   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_1e36b && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_1e36b.dir/posix_regex.cpp.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/lib/benchmark/cmake/posix_regex.cpp'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_1e36b.dir/posix_regex.cpp.o -o cmTC_1e36b   && :
         
       exitCode: 0
     runResult:
@@ -1121,21 +1121,21 @@ events:
       - "lib/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
       - "lib/benchmark/CMakeLists.txt:308 (cxx_feature_check)"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "COMPILE_HAVE_STEADY_CLOCK"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_c7680 && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_c7680.dir/steady_clock.cpp.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/lib/benchmark/cmake/steady_clock.cpp'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_c7680.dir/steady_clock.cpp.o -o cmTC_c7680   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_dd9c9 && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_dd9c9.dir/steady_clock.cpp.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/lib/benchmark/cmake/steady_clock.cpp'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_dd9c9.dir/steady_clock.cpp.o -o cmTC_dd9c9   && :
         
       exitCode: 0
     runResult:
@@ -1149,21 +1149,21 @@ events:
       - "lib/benchmark/cmake/CXXFeatureCheck.cmake:57 (try_run)"
       - "lib/benchmark/CMakeLists.txt:312 (cxx_feature_check)"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "COMPILE_HAVE_PTHREAD_AFFINITY"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeTmp
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeTmp
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_a875a && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_a875a.dir/pthread_affinity.cpp.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/lib/benchmark/cmake/pthread_affinity.cpp'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_a875a.dir/pthread_affinity.cpp.o -o cmTC_a875a   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_d1dec && [1/2] /usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always -o CMakeFiles/cmTC_d1dec.dir/pthread_affinity.cpp.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/lib/benchmark/cmake/pthread_affinity.cpp'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_d1dec.dir/pthread_affinity.cpp.o -o cmTC_d1dec   && :
         
       exitCode: 0
     runResult:
@@ -1181,21 +1181,21 @@ events:
     checks:
       - "Performing Test BENCHMARK_HAS_O3_FLAG"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X28vhM"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X28vhM"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dP42W8"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dP42W8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "BENCHMARK_HAS_O3_FLAG"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X28vhM
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dP42W8
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_69203 && [1/2] /usr/bin/c++ -DBENCHMARK_HAS_O3_FLAG  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always   -O3 -o CMakeFiles/cmTC_69203.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-X28vhM/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_69203.dir/src.cxx.o -o cmTC_69203   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_d2600 && [1/2] /usr/bin/c++ -DBENCHMARK_HAS_O3_FLAG  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always   -O3 -o CMakeFiles/cmTC_d2600.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dP42W8/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_d2600.dir/src.cxx.o -o cmTC_d2600   && :
         
       exitCode: 0
   -
@@ -1208,21 +1208,21 @@ events:
     checks:
       - "Performing Test BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JVINJH"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JVINJH"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dIRQSC"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dIRQSC"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JVINJH
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dIRQSC
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_887d8 && [1/2] /usr/bin/c++ -DBENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always   -Werror=deprecated-declarations -o CMakeFiles/cmTC_887d8.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JVINJH/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_887d8.dir/src.cxx.o -o cmTC_887d8   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_104ba && [1/2] /usr/bin/c++ -DBENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always   -Werror=deprecated-declarations -o CMakeFiles/cmTC_104ba.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dIRQSC/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_104ba.dir/src.cxx.o -o cmTC_104ba   && :
         
       exitCode: 0
   -
@@ -1235,21 +1235,21 @@ events:
     checks:
       - "Performing Test BENCHMARK_HAS_WNO_ODR"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utmvig"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utmvig"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CfKn3m"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CfKn3m"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "BENCHMARK_HAS_WNO_ODR"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utmvig
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CfKn3m
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_0b262 && [1/2] /usr/bin/c++ -DBENCHMARK_HAS_WNO_ODR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always   -Wno-odr -o CMakeFiles/cmTC_0b262.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-utmvig/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_0b262.dir/src.cxx.o -o cmTC_0b262   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_397fd && [1/2] /usr/bin/c++ -DBENCHMARK_HAS_WNO_ODR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always   -Wno-odr -o CMakeFiles/cmTC_397fd.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CfKn3m/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_397fd.dir/src.cxx.o -o cmTC_397fd   && :
         
       exitCode: 0
   -
@@ -1262,21 +1262,21 @@ events:
     checks:
       - "Performing Test BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH"
     directories:
-      source: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vaJmWU"
-      binary: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vaJmWU"
+      source: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3aFun9"
+      binary: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3aFun9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2\u00ba Ano/1\u00ba Semestre/AED/Pr\u00e1ticas/P02/lib/benchmark/cmake"
+      CMAKE_MODULE_PATH: "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake/Modules;/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Pr\u00e1ticas/Exerc\u00edcios Resolvidos/P02/lib/benchmark/cmake"
     buildResult:
       variable: "BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH"
       cached: true
       stdout: |
-        Change Dir: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vaJmWU
+        Change Dir: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3aFun9
         
-        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_5fc8a && [1/2] /usr/bin/c++ -DBENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always   -Wno-lto-type-mismatch -o CMakeFiles/cmTC_5fc8a.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vaJmWU/src.cxx'
-        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_5fc8a.dir/src.cxx.o -o cmTC_5fc8a   && :
+        Run Build Command(s):/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_97fc1 && [1/2] /usr/bin/c++ -DBENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++11 -fdiagnostics-color=always   -Wno-lto-type-mismatch -o CMakeFiles/cmTC_97fc1.dir/src.cxx.o -c '/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3aFun9/src.cxx'
+        [2/2] : && /usr/bin/c++ -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_97fc1.dir/src.cxx.o -o cmTC_97fc1   && :
         
       exitCode: 0
 ...

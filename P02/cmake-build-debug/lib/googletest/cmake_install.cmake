@@ -1,4 +1,4 @@
-# Install script for directory: /home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/lib/googletest
+# Install script for directory: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/lib/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tiago/Desktop/FEUP/2º Ano/1º Semestre/AED/Práticas/P02/cmake-build-debug/lib/googletest/googlemock/cmake_install.cmake")
+  include("/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P02/cmake-build-debug/lib/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

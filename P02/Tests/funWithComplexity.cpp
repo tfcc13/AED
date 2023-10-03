@@ -29,7 +29,54 @@ int FunWithComplexity::river(const vector<int> & v, int k, int t) {
 //=============================================================================
 // TODO
 pair<int, int> FunWithComplexity::spiral(int n) {
-    pair<int, int> ans = {0, 0};
+    if (n == 1) {
+        return std::make_pair(0,0);
+    }
+
+    int x = 0;
+    int y = 0;
+    int numb = 1;
+    int spiral_level= 0;
+
+    while (numb < n) {
+        int move = 2*spiral_level+1;
+        
+        //moving right
+        for (int i = 0; i < move && numb < n; i++ ) {
+            x++;
+            numb++;
+        }
+
+
+
+
+        //moving down
+
+        for (int i = 0; i < move && numb  < n; i++){
+            y--;
+            numb++;
+        }
+
+        //moving left
+        for (int i = 0; i < move && numb< n; i++)
+        {
+            x--;
+            numb++;
+        }
+
+        //moving up
+
+        for (int i = 0; i <move && numb< n; i++)
+        {
+            y++;
+            numb++;
+        }
+        spiral_level++;
+
+
+
+    }
+    pair<int, int> ans = {x, y};
     return ans;
 }
 
