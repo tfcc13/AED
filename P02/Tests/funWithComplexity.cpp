@@ -1,5 +1,5 @@
 #include "funWithComplexity.h"
-
+#include <cmath>
 //=============================================================================
 // Exercise 4: Analyzing a river
 //=============================================================================
@@ -35,47 +35,24 @@ pair<int, int> FunWithComplexity::spiral(int n) {
 
     int x = 0;
     int y = 0;
-    int numb = 1;
-    int spiral_level= 0;
 
-    while (numb < n) {
-        int move = 2*spiral_level+1;
-        
-        //moving right
-        for (int i = 0; i < move && numb < n; i++ ) {
-            x++;
-            numb++;
-        }
+    int l, d;
+    l = (sqrt(n));
 
+    d = (l*l) - n  ;
 
-
-
-        //moving down
-
-        for (int i = 0; i < move && numb  < n; i++){
-            y--;
-            numb++;
-        }
-
-        //moving left
-        for (int i = 0; i < move && numb< n; i++)
-        {
-            x--;
-            numb++;
-        }
-
-        //moving up
-
-        for (int i = 0; i <move && numb< n; i++)
-        {
-            y++;
-            numb++;
-        }
-        spiral_level++;
-
-
-
+    if (d<l) {
+        x = d;
+        y = d;
     }
+
+    else {
+        x = l;
+        y = (2*l)-d-1;
+    }
+
+
+
     pair<int, int> ans = {x, y};
     return ans;
 }
