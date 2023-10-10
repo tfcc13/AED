@@ -1,5 +1,7 @@
 #include "funListStackQueueProblem.h"
 #include "cell.h"
+#include <stack>
+#include <stdio.h>
 
 FunListStackQueueProblem::FunListStackQueueProblem() {}
 
@@ -65,6 +67,31 @@ vector<string> FunListStackQueueProblem::binaryNumbers(int n) {
 //TODO
 vector<int> FunListStackQueueProblem::calculateSpan(vector<int> prices) {
     vector<int> res;
+
+    if (prices.empty()) {
+        return res;
+    }
+
+    stack<int> index;
+
+    int x = prices.size();
+    res.push_back(1);
+    index.push(0);
+
+    for (int i = 1; i < x; i++) {
+
+        while (!index.empty() && prices[index.top()] < prices[i]) {
+            index.pop();
+        }
+
+        if (index.empty()) {
+            res.push_back(i + 1);
+        } else {
+            res.push_back(i - index.top());
+        }
+        index.push(i);
+    }
+
     return res;
 }
 
