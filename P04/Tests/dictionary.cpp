@@ -73,10 +73,29 @@ void Dictionary::print() const {
 //=============================================================================
 //TODO
 string Dictionary::consult(string w1, WordMean& previous, WordMean& next) const {
+    previous = WordMean("", "");
+    next = WordMean("","");
+    string res = "word not found";
+    set<WordMean>::iterator tmp = words.begin();
+    tmp++;
+    for (set<WordMean>::iterator it = words.begin(); it != words.end(); it++, tmp++) {
+        if (it->getWord()  == w1) {
+            return it->getMeaning();
+        }
+        if(  it->getWord() < w1 && w1 < tmp->getWord()) {
+            previous = *it;
+            next = *tmp;
+        }
 
-    while (true) {}
+    }
 
-    
+    return res;
+
+
+
+
+
+
 
     return "";
 }
