@@ -200,11 +200,10 @@ static void BM_PairSum(benchmark::State& state) {
 //=============================================================================
 
 //NOTE: remove comments from respective BENCHMARKs to run complexity analysis
-
-/*
+ /*
 BENCHMARK(BM_Print)
         ->Unit(benchmark::kNanosecond)
-        ->RangeMultiplier(2)-> Range(1<<10,1<<15)
+        ->RangeMultiplier(2)-> Range(1<<10,1<<12)
         ->Complexity();
 */
 

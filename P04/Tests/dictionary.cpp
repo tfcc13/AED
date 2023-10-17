@@ -37,7 +37,7 @@ void Dictionary::addWord(WordMean wm)  {
 //=============================================================================
 //TODO
 bool WordMean::operator< (const WordMean& wm2) const {
-     return true;
+     return (this->word < wm2.word);
 }
 
 //=============================================================================
@@ -45,6 +45,16 @@ bool WordMean::operator< (const WordMean& wm2) const {
 //=============================================================================
 //TODO
 void Dictionary::readFile(ifstream &f) {
+    string word, mean;
+    while (!f.eof()) {
+        getline(f, word );
+        getline(f, mean);
+        WordMean p(word,mean);
+        words.insert(p);
+
+
+    }
+
 }
 
 //=============================================================================
@@ -52,6 +62,10 @@ void Dictionary::readFile(ifstream &f) {
 //=============================================================================
 //TODO
 void Dictionary::print() const {
+
+    for(set<WordMean>::iterator i = words.begin(); i != words.end(); i++) {
+        cout << i->getWord() << '\n' << i->getMeaning() << '\n';
+    }
 }
 
 //=============================================================================
@@ -59,6 +73,11 @@ void Dictionary::print() const {
 //=============================================================================
 //TODO
 string Dictionary::consult(string w1, WordMean& previous, WordMean& next) const {
+
+    while (true) {}
+
+    
+
     return "";
 }
 
