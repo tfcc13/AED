@@ -105,5 +105,19 @@ string Dictionary::consult(string w1, WordMean& previous, WordMean& next) const 
 //=============================================================================
 //TODO
 bool Dictionary::update(string w1, string m1) {
-    return true;
+    set<WordMean>::iterator it = words.find(WordMean(w1,m1));
+    if ( it != words.end()) {
+
+        words.erase(it);
+        words.insert(WordMean(w1,m1));
+
+        //cout << "Word previous meaning" << "Word: " << it->getWord() << "; Meaning:" << it->getMeaning() << '\n';
+
+        //cout << "the word is updated" << "Word: " << w1 << "; Meaning:" << m1 << '\n';
+        return true;
+    }
+    //cout << "the word is inserted" << "Word: " << w1 << "; Meaning:" << m1 << '\n';
+    words.insert(WordMean(w1,m1));
+    return false;
+
 }
