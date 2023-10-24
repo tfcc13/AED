@@ -64,7 +64,22 @@ int FunWithSearch::facingSun(const vector<int> & values) {
 //=============================================================================
 // TODO
 int FunWithSearch::squareR(int num) {
-    return 0;
+    double end = num;
+    double start = 0;
+
+    while ( true) {
+        double sqrt = start + (end+start) / 2.0;
+        if(int(sqrt * sqrt) > num) {
+            end = end - (end+start) / 2.0;
+        }
+        else if (int(sqrt*sqrt) < num){
+            start = start + (end+start)/ 2.0;
+        }
+        else {
+            return int(sqrt);
+        }
+    }
+
 }
 
 
