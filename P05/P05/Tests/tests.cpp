@@ -251,20 +251,20 @@ BENCHMARK(BM_SearchBinary)
         ->RangeMultiplier(2)->Range(1<<5, 1<<16)->Iterations(1<<15)
         ->Complexity();
 */
-
 /*
+
 BENCHMARK(BM_FacingSun)
         ->Unit(benchmark::kNanosecond)
         ->RangeMultiplier(4)->Range(1<<5, 1<<15)
         ->Complexity();
 */
 
-/*
+
 BENCHMARK(BM_MinDifference)
         ->Unit(benchmark::kNanosecond)
         ->RangeMultiplier(2)->Range(1<<2, 1<<10)
         ->Complexity();
-*/
+
 
 /*
 BENCHMARK(BM_NumInversions)
