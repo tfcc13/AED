@@ -45,7 +45,17 @@ int FunWithSearch::searchBinary(const vector<int> & v, int key) {
 //=============================================================================
 // TODO
 int FunWithSearch::facingSun(const vector<int> & values) {
-    return 0;
+
+    int counter = 1;
+    int max = values[0];
+
+    for (int i = 1; i < values.size();i++) {
+        if ( values[i] > max) {
+    counter++;
+    max = values[i];
+}
+    }
+    return counter;
 }
 
 
