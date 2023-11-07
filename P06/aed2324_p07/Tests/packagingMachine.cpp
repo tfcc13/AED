@@ -84,7 +84,27 @@ Box PackagingMachine::searchBox(Object& obj) {
 //=============================================================================
 // TODO
 unsigned PackagingMachine::packObjects() {
-	return 0;
+    unsigned boxCounter = 0;
+    Box packingBox;
+
+    while(!objects.empty()) {
+        Object currObj = objects.top(); // guarda temporariamente o objeto no topo da priority queue
+        objects.pop();  // faz pop do topo da queue
+        packingBox = searchBox(currObj); // procura uma caixa adequada, se não existir procura uma
+
+        // se for uma caixa nova só tem um objeto, logo tem que se adicionar à máquina
+        if(packingBox.getObjects().empty()) {
+            packingBox.addObject(currObj);
+            addBox(packingBox);
+            boxCounter++;
+        }
+        else {
+            packingBox.addObject(currObj); // adiciona o objeto a caixa;
+            addBox(packingBox);
+        }
+    }
+
+	return boxCounter;
 }
 
 
