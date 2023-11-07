@@ -118,7 +118,7 @@ rule CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/tiago/Desktop/AED/Práticas/aed2324_p01 -B/home/tiago/Desktop/AED/Práticas/aed2324_p01/cmake-build-debug
+  command = /home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S"/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P01" -B"/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P01/cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

@@ -1,6 +1,6 @@
-/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/tiago/Desktop/AED/Práticas/aed2324_p01 -B /home/tiago/Desktop/AED/Práticas/aed2324_p01/cmake-build-debug
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
+/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/tiago/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P01" -B "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P01/cmake-build-debug"
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Check for working C compiler: /usr/bin/cc - skipped
@@ -11,10 +11,10 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
--- Configuring done (1.7s)
+-- Configuring done (1.1s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/tiago/Desktop/AED/Práticas/aed2324_p01/cmake-build-debug
+-- Build files have been written to: /home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P01/cmake-build-debug

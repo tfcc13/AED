@@ -259,12 +259,12 @@ BENCHMARK(BM_FacingSun)
         ->Complexity();
 */
 
-
+/*
 BENCHMARK(BM_MinDifference)
         ->Unit(benchmark::kNanosecond)
         ->RangeMultiplier(2)->Range(1<<2, 1<<10)
         ->Complexity();
-
+*/
 
 /*
 BENCHMARK(BM_NumInversions)

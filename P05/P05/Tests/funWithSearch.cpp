@@ -88,5 +88,10 @@ int FunWithSearch::squareR(int num) {
 //=============================================================================
 // TODO
 int FunWithSearch::minPages(const vector<int> & values, int numSt) {
-    return 0;
+    int n_books = values.size();
+    if (n_books < numSt) {
+        return -1;
+    }
+
+
 }

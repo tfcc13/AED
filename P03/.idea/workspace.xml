@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc28f994-f690-4668-8a16-7e19f2d2e515" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../P02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../P02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Files/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P05/P05/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../P05/P05/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2WZHzgM0M7P7qjWY6RV3vVHkHwl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,7 +37,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P03/Files",
+    "last_opened_file_path": "/home/tiago/Desktop/FEUP/2Ano/1Semestre/AED/Práticas/Exercícios Resolvidos/P01",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -51,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696933445591</updated>
       <workItem from="1696933446595" duration="13000" />
+      <workItem from="1698866680928" duration="49000" />
     </task>
     <servers />
   </component>
