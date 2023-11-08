@@ -114,5 +114,20 @@ unsigned PackagingMachine::packObjects() {
 // TODO
 stack<Object> PackagingMachine::boxWithMoreObjects() const {
     stack<Object> res;
+
+    if (boxes.empty()) return res;
+    HeapBox tempHeapBox = getBoxes();
+
+    unsigned maxBox = 0;
+
+    while (!tempHeapBox.empty()) {
+        if(tempHeapBox.top().getSize() > maxBox) {
+            maxBox = tempHeapBox.top().getSize();
+            res = tempHeapBox.top().getObjects();
+        }
+        tempHeapBox.pop();
+    }
+
+
 	return res;
 }
