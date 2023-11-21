@@ -8,7 +8,12 @@
 //=============================================================================
 //TODO
 int FunWithGraphs::outDegree(const Graph<int> g, const int &v) {
-    return -1;
+    auto v1 = g.findVertex(v);
+
+    if (v1 == nullptr) return -1;
+
+    return v1->getAdj().size();
+
 }
 
 
@@ -17,7 +22,19 @@ int FunWithGraphs::outDegree(const Graph<int> g, const int &v) {
 //=============================================================================
 //TODO
 int FunWithGraphs::inDegree(const Graph<int> g, const int &v) {
-    return -1;
+    auto v1 = g.findVertex(v);
+    if (v1 == nullptr) return -1;
+    int counter = 0;
+    for (auto vert : g.getVertexSet()) {
+        for(auto edge : vert->getAdj()) {
+            if(edge.getDest() == v1) {
+                counter++;
+            }
+        }
+    }
+
+    return counter;
+
 }
 
 //=============================================================================

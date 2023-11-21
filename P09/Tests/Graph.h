@@ -265,9 +265,43 @@ bool Vertex<T>::removeEdgeTo(Vertex<T> *d) {
 //TODO
 template <class T>
 bool Graph<T>::removeVertex(const T &in) {
+
+    auto vertex = findVertex(in);
+
+
+    if (vertex == NULL) return false;
+
+    vertex->adj.clear();
+
+    for (auto tmpVert = vertexSet.begin(); tmpVert != vertexSet.end(); tmpVert++) {
+
+    if(vertex != *tmpVert) {
+        (*tmpVert)->removeEdgeTo(vertex);
+    }
+    else {
+        vertexSet.erase(tmpVert);
+    }
+    }
+    return true;
+
+/*
+     for (auto it = vertexSet.begin(); it != vertexSet.end(); it++) {
+     if((*it)->info == in) {
+         auto v = *it;
+         vertexSet.erase(it);
+         for (auto u: vertexSet) u->removeEdgeTo(v);
+         delete (v);
+         return true;
+     }
+     return false;
+*/
+
+
+
+
     // HINT: use an iterator to scan the "vertexSet" vector and then erase the vertex.
     // HINT: take advantage of "removeEdgeTo" to remove incoming edges.
-	return false;
+
 }
 
 #endif /* GRAPH_H_ */
