@@ -7,6 +7,7 @@
 #include <cstddef>
 #include <vector>
 #include <queue>
+#include<iostream>
 
 using namespace std;
 
@@ -262,6 +263,15 @@ bool Graph<T>::removeVertex(const T &in) {
 template <class T>
 vector<T> Graph<T>::dfs() const {
     vector<T> res;
+    for (auto v : vertexSet) {
+        v->visited = false;
+    }
+
+    for(auto v:vertexSet) {
+        if (!v->visited) {
+            dfsVisit(v, res);
+        }
+    }
     return res;
 }
 
@@ -272,6 +282,16 @@ vector<T> Graph<T>::dfs() const {
 // TODO
 template <class T>
 void Graph<T>::dfsVisit(Vertex<T> *v, vector<T> & res) const {
+        v->visited = true;
+        res.push_back(v->info);
+    for(auto &e : v->adj) {
+        auto w = e.dest;
+        if(!w->visited) {
+            dfsVisit(w, res);
+        }
+    }
+
+
 }
 
 //=============================================================================
@@ -286,6 +306,15 @@ void Graph<T>::dfsVisit(Vertex<T> *v, vector<T> & res) const {
 template <class T>
 vector<T> Graph<T>::dfs(const T & source) const {
     vector<T> res;
+
+    for (auto v : vertexSet) {
+        v->visited = false;
+    }
+
+    dfsVisit(findVertex(source),res);
+
+
+
     return res;
 }
 
@@ -304,6 +333,32 @@ vector<T> Graph<T>::bfs(const T & source) const {
     // HINT: Use the flag "visited".
     // HINT: Use the "queue" class to temporarily store the vertices.
 	vector<T> res;
+
+    auto s = findVertex(source);
+
+    if(s== nullptr) return res;
+
+    queue<Vertex<T>*> q;
+
+    for (auto v : vertexSet) {
+        v->visited = false;
+    }
+
+    q.push(s);
+    s->visited = true;
+    while(!q.empty()) {
+        auto tmp = q.front();
+        q.pop();
+        res.push_back(tmp->info);
+        for(auto& w : tmp->adj) {
+            auto e = w.dest;
+            if(!e->visited) {
+                q.push(e);
+                e->visited = true;
+            }
+        }
+    }
+
 	return res;
 }
 
