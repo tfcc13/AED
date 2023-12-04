@@ -55,11 +55,32 @@ void nodesAtDistanceDFSVisit(const Graph<Person> *g, Vertex<Person> *v, int k, v
 bool dfsIsDAG(Vertex<int> *v);
 bool FunWithDFS::isDAG(Graph<int> g) {
 
+    for (auto v : g.getVertexSet()) {
+        v->setVisited(false);
+    }
 
-    return false;
+    for(auto& v : g.getVertexSet() ) {
+        if(!v->isVisited()) {
+            if(dfsIsDAG(v)) return false;
+        }
+    }
+    return true;
 }
 
 // TODO
 bool dfsIsDAG(Vertex<int> *v) {
+
+    v->setVisited(true);
+
+    for(auto & e : v->getAdj()) {
+        auto w = e.getDest();
+        if(w->isVisited()) return true;
+        else if(!w->isVisited()) {
+            if(dfsIsDAG(w)) return true;
+        }
+    }
+
+    v->setVisited(false);
+
     return false;
 }
