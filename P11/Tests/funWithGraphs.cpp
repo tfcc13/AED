@@ -28,7 +28,6 @@ int funWithGraphs::connectedComponents(Graph<int> *g) {
 
 void dfsVisit(Vertex<int> *v) {
     v->setVisited(true);
-
     for (auto& e : v->getAdj()) {
         auto w = e.getDest();
         if(!w->isVisited()) {
@@ -45,11 +44,37 @@ void dfsVisit(Vertex<int> *v) {
 // TODO
 int dfsGC(Vertex<int> *v);
 int funWithGraphs::giantComponent(Graph<int> *g) {
-    return 0;
+    int max = 0;
+    for(auto& v : g->getVertexSet()) {
+        v->setVisited(false);
+        for (auto& e: v->getAdj()) {
+            Vertex<int>*  w = e.getDest();
+            g->addEdge(w->getInfo(), v->getInfo(),0);
+        }
+    }
+
+    for (auto& v : g->getVertexSet()) {
+        if(!v->isVisited()) {
+            auto x = dfsGC(v);
+            if(x >max) max = x;
+
+        }
+    }
+    return max;
 }
 
 int dfsGC(Vertex<int> *v) {
-    return 0;
+    v->setVisited(true);
+    int count = 0;
+    for (auto& e : v->getAdj()) {
+        auto w = e.getDest();
+        if(!w->isVisited()) {
+            dfsVisit(w);
+            count++;
+        }
+    }
+
+    return count;
 }
 
 
