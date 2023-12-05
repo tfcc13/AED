@@ -6,10 +6,37 @@
 // TODO
 void dfsVisit(Vertex<int> *v);
 int funWithGraphs::connectedComponents(Graph<int> *g) {
-    return 0;
+    for(auto& v : g->getVertexSet()) {
+        v->setVisited(false);
+        for (auto& e: v->getAdj()) {
+            Vertex<int>*  w = e.getDest();
+            g->addEdge(w->getInfo(), v->getInfo(),0);
+        }
+    }
+
+    int count  = 0;
+    for (auto& v : g->getVertexSet()) {
+        if(!v->isVisited()) {
+            dfsVisit(v);
+            count++;
+        }
+    }
+
+
+    return count;
 }
 
-void dfsVisit(Vertex<int> *v) {}
+void dfsVisit(Vertex<int> *v) {
+    v->setVisited(true);
+
+    for (auto& e : v->getAdj()) {
+        auto w = e.getDest();
+        if(!w->isVisited()) {
+            dfsVisit(w);
+        }
+    }
+
+}
 
 
 //=============================================================================
