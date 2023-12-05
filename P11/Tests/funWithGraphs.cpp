@@ -65,12 +65,11 @@ int funWithGraphs::giantComponent(Graph<int> *g) {
 
 int dfsGC(Vertex<int> *v) {
     v->setVisited(true);
-    int count = 0;
+    int count = 1;
     for (auto& e : v->getAdj()) {
         auto w = e.getDest();
         if(!w->isVisited()) {
-            dfsVisit(w);
-            count++;
+            count+=dfsGC(w);
         }
     }
 
@@ -85,11 +84,59 @@ int dfsGC(Vertex<int> *v) {
 void dfs_scc(Graph<int> *g, Vertex<int> *v, stack<int> &s, list<list<int>> &l, int &i);
 list<list<int>> funWithGraphs::scc(Graph<int> *g){
     list<list<int>> res;
+    stack<int> s;
+    int i = 0;
+
+    for (auto v : g->getVertexSet()) {
+        v->setVisited(false);
+    }
+
+    for (auto v : g->getVertexSet()) {
+        if(!v->isVisited()) {
+            dfs_scc(g,v,s,res,i);
+        }
+    }
 
     return res;
 }
 
-void dfs_scc(Graph<int> *g, Vertex<int> *v, stack<int> &s, list<list<int>> &l, int &i){}
+void dfs_scc(Graph<int> *g, Vertex<int> *v, stack<int> &s, list<list<int>> &l, int &i){
+    v->setVisited(true);
+    v->setNum(i);
+    v->setLow(i);
+    i++;
+    s.push(v->getInfo());
+
+    for(auto& e : v->getAdj()) {
+        auto w = e.getDest();
+
+        if (!w->isVisited()) {
+            dfs_scc(g, w, s, l, i);
+            v->setLow(min(v->getLow(),w->getLow()));
+        }
+
+        else if (w->getNum() < v->getLow()) {
+            v->setLow(w->getNum());
+        }
+    }
+
+    if(v->getNum() == v->getLow()) {
+        list<int> component;
+
+        while (!s.empty()) {
+            int node = s.top();
+            s.pop();
+            component.push_back(node);
+            if (node == v->getInfo()) {
+                break;
+            }
+        }
+    l.push_back(component);
+    }
+
+    }
+
+
 
 
 //=============================================================================
