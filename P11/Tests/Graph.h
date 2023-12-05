@@ -448,8 +448,45 @@ bool Graph<T>::dfsIsDAG(Vertex<T> *v) const {
 template<class T>
 vector<T> Graph<T>::topsort() const {
     vector<T> res;
+    queue<Vertex<T>*> q;
 
-    if(!dfsIsDAG())
+    for (auto vertex : vertexSet) {
+        vertex->setVisited(false);
+        vertex->setIndegree(0);
+    }
+
+    for (auto vertex : vertexSet) {
+        for (auto& dest : vertex->getAdj()) {
+            auto w = dest.getDest();
+            w->setIndegree(w->getIndegree() + 1);
+        }
+    }
+
+    for(auto vertex: vertexSet) {
+        if (vertex->getIndegree() == 0) {
+            q.push(vertex);
+        }
+    }
+        while (!q.empty()) {
+            auto currVertex = q.front();
+            q.pop();
+            res.push_back(currVertex->info);
+            for(auto& dest : currVertex->adj) {
+                auto w = dest.getDest();
+                w->setIndegree(w->getIndegree() - 1);
+                if(w->getIndegree()== 0) {
+                    q.push(w);
+                }
+            }
+
+        }
+
+    for (auto vertex : vertexSet) {
+        if (vertex->getIndegree() > 0) {
+            res.clear(); // Clear the result as there is a cycle
+            break;
+        }
+    }
 
     return res;
 }
