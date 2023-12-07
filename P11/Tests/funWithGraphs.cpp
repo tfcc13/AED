@@ -157,6 +157,7 @@ unordered_set<int> funWithGraphs::articulationPoints(Graph<int> *g) {
 
     for (auto & v : g->getVertexSet()) {
         v->setVisited(false);
+        v->setProcessing(false);
     }
 
     for (auto & v : g->getVertexSet()) {
@@ -171,6 +172,7 @@ unordered_set<int> funWithGraphs::articulationPoints(Graph<int> *g) {
 // necessário introduzir children para verificar se a raiz é um articulation point
 void dfs_art(Graph<int> *g, Vertex<int> *v, stack<int> &s, unordered_set<int> &l, int &i) {
     v->setVisited(true);
+    v->setProcessing(true);
     v->setNum(i);
     v->setLow(i);
     i++;
@@ -184,29 +186,27 @@ void dfs_art(Graph<int> *g, Vertex<int> *v, stack<int> &s, unordered_set<int> &l
             children++;
             dfs_art(g, w, s, l, i);
             v->setLow(min(v->getLow(), w->getLow()));
-            if (v->getNum() != 0 && w->getLow()>= v->getNum()) {
+            if ((w->getLow() >= v->getNum() and v->getNum() != 0 ) )  {
                 l.insert(v->getInfo());
             }
-        } else if (w->getNum() < v->getLow()) {
+        } else if (w->isProcessing()) {
             v->setLow(min(v->getLow(), w->getNum()));
         }
     }
 
     s.pop();
 
-
     if (v->getNum() == 0 && children > 1) {
+        l.insert(v->getInfo());
+    }
+
+
+    v->setProcessing(false);
+}
+
+   /* if (v->getNum() == 0 && children > 1) {
         l.insert(v->getInfo());
     }
 }
 
-/*
-        while(!s.empty() && s.top() != v->getInfo()) {
-            l.insert(s.top());
-            s.pop();
-        }
-        if(!s.empty()) {
-            s.pop();
-        }
-    }
 */
