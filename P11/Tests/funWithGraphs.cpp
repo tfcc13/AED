@@ -89,6 +89,7 @@ list<list<int>> funWithGraphs::scc(Graph<int> *g){
 
     for (auto v : g->getVertexSet()) {
         v->setVisited(false);
+        v->setProcessing(false);
     }
 
     for (auto v : g->getVertexSet()) {
@@ -102,6 +103,7 @@ list<list<int>> funWithGraphs::scc(Graph<int> *g){
 
 void dfs_scc(Graph<int> *g, Vertex<int> *v, stack<int> &s, list<list<int>> &l, int &i){
     v->setVisited(true);
+    v->setProcessing(true);
     v->setNum(i);
     v->setLow(i);
     i++;
@@ -115,24 +117,27 @@ void dfs_scc(Graph<int> *g, Vertex<int> *v, stack<int> &s, list<list<int>> &l, i
             v->setLow(min(v->getLow(),w->getLow()));
         }
 
-        else if (w->getNum() < v->getLow()) {
-            v->setLow(w->getNum());
+        else if (w->isProcessing()) {
+            v->setLow(min(v->getLow(),w->getNum()));
         }
     }
 
     if(v->getNum() == v->getLow()) {
         list<int> component;
 
-        while (!s.empty()) {
+        while (true) {
             int node = s.top();
             s.pop();
             component.push_back(node);
-            if (node == v->getInfo()) {
+            if(node == v->getInfo()) {
                 break;
             }
         }
+
     l.push_back(component);
     }
+
+    v->setProcessing(false);
 
     }
 
