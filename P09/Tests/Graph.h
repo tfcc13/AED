@@ -230,8 +230,8 @@ bool Graph<T>::removeEdge(const T &sourc, const T &dest) {
     auto v2 =  findVertex(dest);
     if (v1== NULL || v2 == NULL) return false;
 
-    v1->removeEdgeTo(v2);
-
+    if(v1->removeEdgeTo(v2)) return true;
+    return false;
 }
 
 /*
