@@ -1,3 +1,6 @@
 [submodule "project_II"]
 	path = project_II
 	url = https://github.com/tfcc13/AED_PROJECT_II_G81
+[submodule "AED_PROJECT_G81"]
+	path = AED_PROJECT_G81
+	url = git@github.com:tfcc13/AED_PROJECT_G81.git
