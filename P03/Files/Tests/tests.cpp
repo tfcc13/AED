@@ -439,12 +439,12 @@ static void BM_KnightJumps(benchmark::State& state) {
 
 //NOTE: remove comments from respective BENCHMARKs to run complexity analysis
 
-/*
+
 BENCHMARK(BM_RemoveHigher)
         ->Unit(benchmark::kNanosecond)
         ->DenseRange(1<<12,1<<15,4096)
         ->Complexity();
-*/
+
 
 /*
 BENCHMARK(BM_OverlappingIntervals)
@@ -452,7 +452,6 @@ BENCHMARK(BM_OverlappingIntervals)
         ->RangeMultiplier(2)->Range(1<<10, 1<<18)
         ->Complexity();
 */
-
 /*
 BENCHMARK(BM_FindMin)
         ->Unit(benchmark::kNanosecond)
